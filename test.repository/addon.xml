@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="test.repository" name="test.repository" version="0.0.2" provider-name="Mafarricos">
+	<extension point="xbmc.addon.repository" name="test Add-on Repository">
+		<info compressed="false">http://raw.github.com/Mafarricos/test.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/Mafarricos/test.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/Mafarricos/test.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>test Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
